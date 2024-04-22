@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Author            : Eshan Roy
 # Author II         : Abhiraj Roy
-# Author URI        : https://eshanized.github.io
 # Author URI II     : https://iconized.github.io
 
 # NOTE: Run this at your own risk! 

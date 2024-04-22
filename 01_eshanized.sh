@@ -13,8 +13,11 @@ if [[ -n $(git status -s) ]]; then
     # Add all changes to the staging area
     git add .
 
+    # Prompt user for commit message
+    read -p "Enter commit message: " COMMIT_MESSAGE
+
     # Commit changes with a default message
-    git commit -m "default"
+    git commit -m "$COMMIT_MESSAGE"
 
     # Push changes to the remote repository
     git push $REPO_URL
